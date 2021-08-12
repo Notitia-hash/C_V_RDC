@@ -1,0 +1,138 @@
+    * {
+        padding: 0;
+        margin: 0;
+        word-break: initial;
+    }
+    
+    .material-icons {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    
+    .menu1 {
+        width: 100%;
+        user-select: none;
+    }
+    
+    .menu_fix {
+        width: 100%;
+        padding: 5px;
+        height: 40px;
+        background: rgba(0, 0, 0, 0.979);
+        justify-content: center;
+        color: white;
+        position: fixed;
+        z-index: 2;
+    }
+    
+    #menu2 {
+        display: none;
+        position: fixed;
+        background: rgba(0, 0, 0, 0.685);
+        z-index: 1;
+        padding-top: 150px;
+        width: 30%;
+        height: 100%;
+    }
+    
+    .apartado {
+        text-align: center;
+    }
+    
+    #menu2 a {
+        color: white;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .caja1 {
+        padding-top: 60px;
+        display: block;
+        position: absolute;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        /**/
+        background: #f46b45;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #eea849, #f46b45);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #eea849, #f46b45);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /**/
+    }
+    
+    .caja2 {
+        margin: 10px;
+        padding: 20px;
+        width: 500px;
+        height: auto;
+        background: rgb(255, 255, 255);
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .caja2I {
+        color: white;
+        background: rgba(0, 0, 0, 0.582);
+        padding: 45px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .caja2>.titulo2 {
+        color: black;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    .caja2I>.lugar,
+    .puesto,
+    .fecha,
+    .descripcion {
+        text-align: left;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .idioma {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        margin: 20px;
+    }
+    
+    footer {
+        text-align: center;
+        padding-top: 40px;
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        color: white;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.877);
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .caja2 {
+            width: 60%;
+            height: auto;
+        }
+        .caja2I {
+            padding: 5%;
+        }
+    }
+    
+    body {
+        height: 100%;
+        background: rgb(0, 0, 0);
+    }
