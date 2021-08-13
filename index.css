@@ -28,14 +28,17 @@
     #menu2 {
         display: none;
         position: fixed;
-        background: rgba(0, 0, 0, 0.685);
+        background: rgba(0, 0, 0, 0.74);
         z-index: 1;
         padding-top: 150px;
         width: 30%;
         height: 100%;
+        box-shadow: 20px 15px 15px rgba(0, 0, 0, 0.363);
     }
     
     .apartado {
+        font-size: 20px;
+        padding: 20px;
         text-align: center;
     }
     
@@ -47,6 +50,10 @@
         text-decoration: none;
     }
     
+    .apartado:hover {
+        color: goldenrod;
+    }
+    
     .caja1 {
         padding-top: 60px;
         display: block;
@@ -55,12 +62,7 @@
         justify-content: center;
         flex-wrap: wrap;
         /**/
-        background: #f46b45;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #eea849, #f46b45);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #eea849, #f46b45);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #CCFF66;
         /**/
     }
     
@@ -75,6 +77,7 @@
         margin-right: auto;
         border-radius: 20px;
         margin-bottom: 40px;
+        color: black;
     }
     
     .caja2I {
@@ -83,10 +86,16 @@
         padding: 45px;
         border-radius: 20px;
         margin-bottom: 15px;
+        border: 1px solid black;
+    }
+    
+    .caja2:hover {
+        background: rgba(0, 0, 0, 0.514);
+        transition-duration: 0.5s;
+        color: white;
     }
     
     .caja2>.titulo2 {
-        color: black;
         text-align: center;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 30px;
